@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="5" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-12T13:42:51 EDT" name="Suite" finished-at="2024-10-12T13:43:44 EDT" duration-ms="53708">
+    <groups>
+      <group name="errorvalidation">
+        <method signature="ErrorValidations.errorValidationOfSubmitOrder()[pri:0, instance:RahulShettyFrameWork_AppTest.TestComponents.ErrorValidations@f99f5e0]" name="errorValidationOfSubmitOrder" class="RahulShettyFrameWork_AppTest.TestComponents.ErrorValidations"/>
+      </group> <!-- errorvalidation -->
+      <group name="Purchase">
+        <method signature="StandAloneTest.submitOrder(java.util.HashMap)[pri:0, instance:RahulShettyFrameWork_AppTest.StandAloneTest@26df6e3a]" name="submitOrder" class="RahulShettyFrameWork_AppTest.StandAloneTest"/>
+      </group> <!-- Purchase -->
+    </groups>
+    <test started-at="2024-10-12T13:42:51 EDT" name="Error Validation" finished-at="2024-10-12T13:43:27 EDT" duration-ms="36358">
+      <class name="RahulShettyFrameWork_AppTest.TestComponents.ErrorValidations">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:RahulShettyFrameWork_AppTest.TestComponents.ErrorValidations@f99f5e0]" started-at="2024-10-12T13:42:51 EDT" name="launchApplication" finished-at="2024-10-12T13:43:03 EDT" duration-ms="11846" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="errorValidationOfSubmitOrder()[pri:0, instance:RahulShettyFrameWork_AppTest.TestComponents.ErrorValidations@f99f5e0]" started-at="2024-10-12T13:43:03 EDT" name="errorValidationOfSubmitOrder" finished-at="2024-10-12T13:43:04 EDT" duration-ms="1269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- errorValidationOfSubmitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:RahulShettyFrameWork_AppTest.TestComponents.ErrorValidations@f99f5e0]" started-at="2024-10-12T13:43:04 EDT" name="tearDown" finished-at="2024-10-12T13:43:04 EDT" duration-ms="195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:RahulShettyFrameWork_AppTest.TestComponents.ErrorValidations@f99f5e0]" started-at="2024-10-12T13:43:04 EDT" name="launchApplication" finished-at="2024-10-12T13:43:12 EDT" duration-ms="7783" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="errorValidationInCartPage()[pri:0, instance:RahulShettyFrameWork_AppTest.TestComponents.ErrorValidations@f99f5e0]" started-at="2024-10-12T13:43:12 EDT" name="errorValidationInCartPage" finished-at="2024-10-12T13:43:27 EDT" duration-ms="14929" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- errorValidationInCartPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:RahulShettyFrameWork_AppTest.TestComponents.ErrorValidations@f99f5e0]" started-at="2024-10-12T13:43:27 EDT" name="tearDown" finished-at="2024-10-12T13:43:27 EDT" duration-ms="245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- RahulShettyFrameWork_AppTest.TestComponents.ErrorValidations -->
+    </test> <!-- Error Validation -->
+    <test started-at="2024-10-12T13:42:51 EDT" name="submit order test" finished-at="2024-10-12T13:43:44 EDT" duration-ms="53708">
+      <class name="RahulShettyFrameWork_AppTest.StandAloneTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:RahulShettyFrameWork_AppTest.StandAloneTest@26df6e3a]" started-at="2024-10-12T13:42:51 EDT" name="launchApplication" finished-at="2024-10-12T13:43:01 EDT" duration-ms="10404" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:RahulShettyFrameWork_AppTest.StandAloneTest@26df6e3a]" started-at="2024-10-12T13:43:01 EDT" name="submitOrder" data-provider="getData" finished-at="2024-10-12T13:43:19 EDT" duration-ms="17398" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Rahul1212$$, product=ZARA COAT 3, email=akabir@email.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:RahulShettyFrameWork_AppTest.StandAloneTest@26df6e3a]" started-at="2024-10-12T13:43:19 EDT" name="tearDown" finished-at="2024-10-12T13:43:19 EDT" duration-ms="395" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:RahulShettyFrameWork_AppTest.StandAloneTest@26df6e3a]" started-at="2024-10-12T13:43:19 EDT" name="launchApplication" finished-at="2024-10-12T13:43:27 EDT" duration-ms="8302" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:RahulShettyFrameWork_AppTest.StandAloneTest@26df6e3a]" started-at="2024-10-12T13:43:27 EDT" name="submitOrder" data-provider="getData" finished-at="2024-10-12T13:43:44 EDT" duration-ms="16588" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Babla3210, product=ADIDAS ORIGINAL, email=mk@email.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:RahulShettyFrameWork_AppTest.StandAloneTest@26df6e3a]" started-at="2024-10-12T13:43:44 EDT" name="tearDown" finished-at="2024-10-12T13:43:44 EDT" duration-ms="283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- RahulShettyFrameWork_AppTest.StandAloneTest -->
+    </test> <!-- submit order test -->
+  </suite> <!-- Suite -->
+</testng-results>
